@@ -1,0 +1,96 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django media/static files
+media
+staticfiles
+static
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment
+.env
+.env.*
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.cache
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx documentation
+docs/_build/
+
+# Unit test / coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pyenv
+.python-version
+
+
+# SQLite
+*.sqlite3
+
+
+# FastAPI from fastapi/
+fastapi/__pycache__/
+fastapi/tests/__pycache__/
+fastapi/tools/__pycache__/
+fastapi/services/__pycache__/
+fastapi/routing/__pycache__/
+fastapi/config/__pycache__/
+fastapi/tools/__pycache__/
+fastapi/tools/__pycache__/
+fastapi/tools/__pycache__/
+fastapi/tools/__pycache__/
+
+
+# certs
+certs/
+
+# CSV files
+# *.csv
