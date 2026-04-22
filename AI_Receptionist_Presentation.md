@@ -247,7 +247,6 @@ On top of the LLM's raw output, a **classifier head** produces probabilistic cat
 | `DISTRESS` | Emotional distress detected | Emergency escalation pathway |
 | `SPAM / ROBOCALL` | Automated caller detected | Graceful termination |
 
-The classifier head enables **confidence scoring** — if the model is uncertain (e.g., confidence < 0.7), it defaults to asking a clarifying question rather than acting on a low-confidence classification.
 
 ---
 
